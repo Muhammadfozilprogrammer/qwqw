@@ -454,7 +454,7 @@ button {
     transform: scale(1.1); /* Zoomed in by 10% */
   }
 }
-#link{
+#link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -466,4 +466,60 @@ button {
   background-color: rgb(106, 15, 155);
   padding: 10px 20px;
   color: white;
+}
+
+.cards {
+  margin-top: 100px;
+  background-color: #eeecec;
+  padding-bottom: 50px;
+}
+
+.cards-title {
+  text-align: center;
+  padding: 100px 0 20px 0;
+  color: #333;
+}
+
+.cards-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 30px;
+  margin: 0 50px;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  /*align-items: center;
+  */
+  justify-content: center;
+  flex-direction: column;
+  width: 22%;
+  gap: 10px;
+  border: 10px solid transparent;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgb(193, 192, 192);
+}
+
+.cards-list h3 {
+  color: #525151;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.cards-list p {
+  color: #515050;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards-item {
+  padding: 0 10px 10px 10px;
 }
